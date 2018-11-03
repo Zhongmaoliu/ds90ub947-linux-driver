@@ -13,17 +13,11 @@ Step:
 cd /driver/misc/konfig,add the list
 
 config DS90UB947
-
 	tristate "TI DS90UB947 FPD-Link de-/serializer chip"
-	
 	default n
-	
 	depends on I2C
-	
 	help
-	
 	  if you say yes here you get support for the DS90UB947 series of
-	  
 	  chips.
 	  
 cd /driver/misc/Makefile,add the list
